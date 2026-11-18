@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CYBERFORT | Membership Registration</title>
+</head>
+
+<body bgcolor="#f5f7fa">
+
+<center>
+
+    <!-- HEADER -->
+    <table width="90%" bgcolor="#123B66" cellpadding="20">
+        <tr>
+            <td align="center">
+                <font color="white" size="6">
+                    <b>CYBERFORT</b>
+                </font>
+                <br>
+                <font color="white" size="3">
+                    Educational Materials & E-Learning Resources
+                </font>
+            </td>
+        </tr>
+    </table>
+
+    <br>
+
+    <!-- FORM CONTAINER -->
+    <table width="750" bgcolor="white" cellpadding="25" border="1"
+           bordercolor="#d9dee5">
+
+        <tr>
+            <td>
+
+                <center>
+                    <font color="#123B66" size="5">
+                        <b>Membership Registration</b>
+                    </font>
+
+                    <p>
+                        <font color="#555555">
+                            Become an cyberfort member and get access to
+                            quality educational resources.
+                        </font>
+                    </p>
+                </center>
+
+                <hr>
+
+                <form action="#" method="post"
+                      enctype="multipart/form-data">
+
+                    <!-- PERSONAL DETAILS -->
+
+                    <fieldset>
+
+                        <legend>
+                            <b>1. Personal Information</b>
+                        </legend>
+
+                        <br>
+
+                        <label for="fullname">
+                            <b>Full Name *</b>
+                        </label>
+                        <br>
+
+                        <input type="text"
+                               id="fullname"
+                               name="fullname"
+                               placeholder="Enter your full name"
+                               size="65"
+                               required>
+
+                        <br><br>
+
+                        <label for="email">
+                            <b>Email Address *</b>
+                        </label>
+                        <br>
+
+                        <input type="email"
+                               id="email"
+                               name="email"
+                               placeholder="example@email.com"
+                               size="65"
+                               required>
+
+                        <br><br>
+
+                        <label for="mobile">
+                            <b>Mobile Number *</b>
+                        </label>
+                        <br>
+
+                        <input type="tel"
+                               id="mobile"
+                               name="mobile"
+                               placeholder="Enter 10-digit mobile number"
+                               maxlength="10"
+                               size="65"
+                               required>
+
+                        <br><br>
+
+                        <label for="password">
+                            <b>Create Password *</b>
+                        </label>
+                        <br>
+
+                        <input type="password"
+                               id="password"
+                               name="password"
+                               placeholder="Create a strong password"
+                               size="65"
+                               required>
+
+                        <br><br>
+
+                        <label>
+                            <b>Gender</b>
+                        </label>
+                        <br>
+
+                        <input type="radio"
+                               name="gender"
+                               value="male">
+                        Male
+
+                        &nbsp;&nbsp;
+
+                        <input type="radio"
+                               name="gender"
+                               value="female">
+                        Female
+
+                        &nbsp;&nbsp;
+
+                        <input type="radio"
+                               name="gender"
+                               value="other">
+                        Other
+
+                        <br><br>
+
+                        <label for="dob">
+                            <b>Date of Birth</b>
+                        </label>
+                        <br>
+
+                        <input type="date"
+                               id="dob"
+                               name="dob">
+
+                        <br><br>
+
+                    </fieldset>
+
+                    <br>
+
+
+                    <!-- EDUCATION -->
+
+                    <fieldset>
+
+                        <legend>
+                            <b>2. Educational Details</b>
+                        </legend>
+
+                        <br>
+
+                        <label for="education">
+                            <b>Education Level *</b>
+                        </label>
+                        <br>
+
+                        <select id="education"
+                                name="education"
+                                required>
+
+                            <option value="">
+                                -- Select Education Level --
+                            </option>
+
+                            <option>Class 10</option>
+                            <option>Class 11</option>
+                            <option>Class 12</option>
+                            <option>Diploma</option>
+                            <option>Undergraduate</option>
+                            <option>Postgraduate</option>
+                            <option>Other</option>
+
+                        </select>
+
+                        <br><br>
+
+                        <label for="institution">
+                            <b>School / College Name</b>
+                        </label>
+                        <br>
+
+                        <input type="text"
+                               id="institution"
+                               name="institution"
+                               placeholder="Enter institution name"
+                               size="65">
+
+                        <br><br>
+
+                        <label for="course">
+                            <b>Interested Course</b>
+                        </label>
+                        <br>
+
+                        <select id="course"
+                                name="course">
+
+                            <option value="">
+                                -- Select Course --
+                            </option>
+
+                            <optgroup label="School Subjects">
+                                <option>Mathematics</option>
+                                <option>Physics</option>
+                                <option>Chemistry</option>
+                                <option>Computer Science</option>
+                                <option>Biology</option>
+                            </optgroup>
+
+                            <optgroup label="Competitive Exams">
+                                <option>JEE</option>
+                                <option>NEET</option>
+                                <option>CUET</option>
+                                <option>Other</option>
+                            </optgroup>
+
+                            <optgroup label="Technology">
+                                <option>C Programming</option>
+                                <option>Python</option>
+                                <option>Web Development</option>
+                                <option>Artificial Intelligence</option>
+                            </optgroup>
+
+                        </select>
+
+                        <br><br>
+
+                        <label>
+                            <b>Areas of Interest</b>
+                        </label>
+                        <br>
+
+                        <input type="checkbox"
+                               name="interest"
+                               value="books">
+                        Books
+
+                        &nbsp;
+
+                        <input type="checkbox"
+                               name="interest"
+                               value="ebooks">
+                        E-Books
+
+                        &nbsp;
+
+                        <input type="checkbox"
+                               name="interest"
+                               value="coding">
+                        Coding
+
+                        &nbsp;
+
+                        <input type="checkbox"
+                               name="interest"
+                               value="tests">
+                        Practice Tests
+
+                        &nbsp;
+
+                        <input type="checkbox"
+                               name="interest"
+                               value="courses">
+                        Courses
+
+                        <br><br>
+
+                    </fieldset>
+
+                    <br>
+
+
+                    <!-- MEMBERSHIP -->
+
+                    <fieldset>
+
+                        <legend>
+                            <b>3. Membership Details</b>
+                        </legend>
+
+                        <br>
+
+                        <label for="membership">
+                            <b>Membership Plan *</b>
+                        </label>
+                        <br>
+
+                        <select id="membership"
+                                name="membership"
+                                required>
+
+                            <option value="">
+                                -- Choose Membership Plan --
+                            </option>
+
+                            <option value="basic">
+                                Basic - ₹499 / Year
+                            </option>
+
+                            <option value="standard">
+                                Standard - ₹999 / Year
+                            </option>
+
+                            <option value="premium">
+                                Premium - ₹1999 / Year
+                            </option>
+
+                        </select>
+
+                        <br><br>
+
+                        <label>
+                            <b>Preferred Learning Mode</b>
+                        </label>
+
+                        <br>
+
+                        <input type="radio"
+                               name="learningmode"
+                               value="online">
+                        Online
+
+                        &nbsp;&nbsp;
+
+                        <input type="radio"
+                               name="learningmode"
+                               value="offline">
+                        Offline
+
+                        &nbsp;&nbsp;
+
+                        <input type="radio"
+                               name="learningmode"
+                               value="both">
+                        Both
+
+                        <br><br>
+
+                        <label for="startdate">
+                            <b>Preferred Start Date</b>
+                        </label>
+                        <br>
+
+                        <input type="date"
+                               id="startdate"
+                               name="startdate">
+
+                        <br><br>
+
+                        <label for="studytime">
+                            <b>Preferred Study Time</b>
+                        </label>
+                        <br>
+
+                        <input type="time"
+                               id="studytime"
+                               name="studytime">
+
+                        <br><br>
+
+                    </fieldset>
+
+                    <br>
+
+
+                    <!-- ADDRESS -->
+
+                    <fieldset>
+
+                        <legend>
+                            <b>4. Contact & Address</b>
+                        </legend>
+
+                        <br>
+
+                        <label for="address">
+                            <b>Address</b>
+                        </label>
+                        <br>
+
+                        <textarea id="address"
+                                  name="address"
+                                  rows="4"
+                                  cols="65"
+                                  placeholder="Enter your complete address"></textarea>
+
+                        <br><br>
+
+                        <label for="city">
+                            <b>City</b>
+                        </label>
+                        <br>
+
+                        <input type="text"
+                               id="city"
+                               name="city"
+                               placeholder="Enter city"
+                               size="65">
+
+                        <br><br>
+
+                        <label for="state">
+                            <b>State</b>
+                        </label>
+                        <br>
+
+                        <select id="state"
+                                name="state">
+
+                            <option>-- Select State --</option>
+                            <option>Tamil Nadu</option>
+                            <option>Kerala</option>
+                            <option>Karnataka</option>
+                            <option>Andhra Pradesh</option>
+                            <option>Telangana</option>
+                            <option>Maharashtra</option>
+                            <option>Delhi</option>
+                            <option>Other</option>
+
+                        </select>
+
+                        <br><br>
+
+                        <label for="pincode">
+                            <b>PIN Code</b>
+                        </label>
+                        <br>
+
+                        <input type="number"
+                               id="pincode"
+                               name="pincode"
+                               placeholder="Enter PIN code">
+
+                        <br><br>
+
+                    </fieldset>
+
+                    <br>
+
+
+                    <!-- ADDITIONAL INFORMATION -->
+
+                    <fieldset>
+
+                        <legend>
+                            <b>5. Additional Information</b>
+                        </legend>
+
+                        <br>
+
+                        <label for="photo">
+                            <b>Profile Photo</b>
+                        </label>
+                        <br>
+
+                        <input type="file"
+                               id="photo"
+                               name="photo"
+                               accept="image/*">
+
+                        <br><br>
+
+                        <label for="website">
+                            <b>Portfolio / Website</b>
+                        </label>
+                        <br>
+
+                        <input type="url"
+                               id="website"
+                               name="website"
+                               placeholder="https://example.com"
+                               size="65">
+
+                        <br><br>
+
+                        <label for="resource">
+                            <b>Preferred Resource</b>
+                        </label>
+                        <br>
+
+                        <input list="resources"
+                               id="resource"
+                               name="resource"
+                               placeholder="Choose or type">
+
+                        <datalist id="resources">
+                            <option value="E-Books">
+                            <option value="Study Materials">
+                            <option value="Video Courses">
+                            <option value="Practice Tests">
+                            <option value="Project Kits">
+                            <option value="Learning Kits">
+                        </datalist>
+
+                        <br><br>
+
+                        <label for="comments">
+                            <b>Comments / Requirements</b>
+                        </label>
+                        <br>
+
+                        <textarea id="comments"
+                                  name="comments"
+                                  rows="5"
+                                  cols="65"
+                                  placeholder="Tell us what you need from cyberfort"></textarea>
+
+                        <br><br>
+
+                    </fieldset>
+
+                    <br>
+
+
+                    <!-- TERMS -->
+
+                    <fieldset>
+
+                        <legend>
+                            <b>6. Declaration</b>
+                        </legend>
+
+                        <br>
+
+                        <input type="checkbox"
+                               id="terms"
+                               name="terms"
+                               required>
+
+                        <label for="terms">
+                            I agree to the CYBERFORT Terms and Conditions.
+                        </label>
+
+                        <br><br>
+
+                        <input type="checkbox"
+                               id="privacy"
+                               name="privacy"
+                               required>
+
+                        <label for="privacy">
+                            I agree to the CYBERFORT Privacy Policy.
+                        </label>
+
+                        <br><br>
+
+                    </fieldset>
+
+                    <br>
+
+                    <!-- BUTTONS -->
+
+                    <center>
+
+                        <input type="submit"
+                               value="  Submit Membership  ">
+
+                        &nbsp;&nbsp;&nbsp;
+
+                        <input type="reset"
+                               value="  Clear Form  ">
+
+                    </center>
+
+                </form>
+
+                <br>
+
+                <hr>
+
+                <center>
+
+                    <p>
+                        Already a member?
+                        <a href="login.html">
+                            <b>Login to CYBERFORT</b>
+                        </a>
+                    </p>
+
+                </center>
+
+            </td>
+        </tr>
+
+    </table>
+
+    <br>
+
+    <!-- FOOTER -->
+
+    <table width="90%" bgcolor="#123B66" cellpadding="15">
+
+        <tr>
+            <td align="center">
+
+                <font color="white">
+                    <b>EduStore</b>
+                    <br><br>
+                    Learn. Explore. Grow.
+                    <br><br>
+
+                    About Us &nbsp; | &nbsp;
+                    Contact &nbsp; | &nbsp;
+                    Help &nbsp; | &nbsp;
+                    Privacy Policy &nbsp; | &nbsp;
+                    Terms
+                    <br><br>
+
+                    <font size="2">
+                        ©️ 2026 CYBERFORT. All Rights Reserved.
+                    </font>
+                </font>
+
+            </td>
+        </tr>
+
+    </table>
+
+    <br>
+
+</center>
+
+</body>
+</html>
